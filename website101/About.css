@@ -1,0 +1,110 @@
+﻿* { /*butun html etıketlerını kapsar*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: navajowhite;   
+}
+
+.ad h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    color: midnightblue;
+    text-align: center;
+    background: #a6afc3;
+}
+
+div a:hover {
+    background-color: midnightblue;
+    color: black;
+}
+
+.menu-bar {
+    background: mediumpurple;
+    text-align: center;
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+.menu-bar ul li {
+    width: 150px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.menu-bar ul li a {
+     text-decoration: none;
+     color: white;
+}
+
+.menu-bar ul li:hover {
+    background: midnightblue;
+    border-radius: 50%;
+}
+
+.cizgi {
+    border-left: 5px solid midnightblue;
+    height: 850px;
+    position: absolute;
+    left: 50%;
+    margin-left: 3px;    
+}
+
+.resim img{
+   width:300px;
+   position:relative;
+   left:170px;
+   margin-top:30px;
+}
+
+.paragraph h1{
+  position:absolute;
+  left:240px; 
+}
+
+.paragraph h2{
+    position:absolute;
+    margin-top:80px;
+    width:400px;
+    background:#a6afc3;
+    word-wrap:break-word;
+    left:120px;
+    top:320px;
+}
+
+.hobi h1 {
+    margin-left: 700px;
+    margin-top: -210px;
+    text-decoration: underline;
+}
+
+.music {
+    position:relative;
+    top:30px;
+    margin-left:700px;
+}
+
+.book{
+    position:relative;
+    top:60px;
+    margin-left:700px;
+}
+
+.travel {
+    position: relative;
+    top: 100px;
+    margin-left: 700px;
+}
+
